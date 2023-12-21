@@ -1,0 +1,81 @@
+
+
+.container{
+  position: relative;
+  width:100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: x-large;
+  background: linear-gradient(135deg,#598be8,#05224b);
+}
+
+.card{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 30rem;
+  min-width:40vw;
+  margin: 1px;
+  background-color:lightskyblue;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.form-input{
+  margin-bottom: 2rem;
+}
+
+.type{
+   margin:auto;/*0px 50px 0px 50px; */
+}
+
+#buttons{
+  
+}
+
+button{
+  background-color:royalblue;
+  padding: 5px;
+  margin:auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.item {
+  display: flex;
+  font-size:medium;
+  line-height: 2em;
+  width:100%;
+  justify-content:space-between;
+
+}
+.item-value{
+  margin-right: 3rem;
+}
+.status{
+  margin-right: -1rem;
+}
+.amountList {
+  display:flex;
+  flex-direction: column;
+  width: 30rem;
+  background-color:lightskyblue;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#edit-amount{
+display:none;
+
+}
+
+#cancel-edit{
+  display:none;
+}
