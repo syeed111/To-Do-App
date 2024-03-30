@@ -79,3 +79,17 @@ display:none;
 #cancel-edit{
   display:none;
 }
+
+input{
+  height: 1.5em;
+  color:rgb(110, 108, 108);
+  font-size: medium;
+  border-radius: 5px;
+}
+select{
+height: 2em;
+color:rgb(110, 108, 108);
+font-size:medium;
+border-radius: 5px;
+
+}
